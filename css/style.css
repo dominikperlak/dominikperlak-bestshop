@@ -73,9 +73,7 @@
   }
   
   
-  /**
-   * Header
-   */
+  
   .header {
     height: 70px;
     box-shadow: 0 3px 6px rgba(0,0,0,.16);
@@ -115,9 +113,7 @@
     border-color: var(--color-primary);
   }
   
-  /**
-   * Opening section
-   */
+/* Sekcja */
   .opening {
     display: flex;
     flex-direction: column;
@@ -146,7 +142,7 @@
   
   
   /**
-   * Statistics
+   * Statystyka
    */
   .statistics {
     margin-top: 100px;
@@ -225,7 +221,7 @@
   
   
   /**
-   * Benefits Section
+   * Beneficje
    */
   .benefits {
     padding: 100px 0;
@@ -368,7 +364,7 @@
   
   
   /**
-   * Pricing
+   * Cena
    */
   
   .pricing {
@@ -452,7 +448,7 @@
     background-color: var(--accent-color);
   }
   
-  /*** Basic Box ***/
+  /*** Box ***/
   .pricing__box--basic {
    --accent-color: var(--color-redish);
   }
@@ -462,7 +458,7 @@
   }
   
   
-  /*** Professional Box **/
+
   .pricing__box--professional {
     --accent-color: var(--color-primary);
     width: 400px;
@@ -484,7 +480,7 @@
   }
   
   /**
-   * Contact
+   * Krzysiu
    */
   
   .contact {
@@ -613,7 +609,7 @@
     margin-top: 20px;
   }
 
-/* Footer */
+/* Stopy*/
 
 
   .footer {
@@ -639,6 +635,9 @@
     color: var(--color-grey);
     margin-top: 6px;
   }
+  
+
+
   
   .footer__icons a:first-of-type {
     margin-right: 25px;
